@@ -69,8 +69,8 @@ A)using git clone command
 go to github and create a new repository ,click on the repository name on top left after opening click on code and copy the http link
 git init
 git clone "paste the link here"
-}using pull 
-B)
+} 
+B)using pull
 {
 git remote add origin "paste the link here"
 git pull origin main 
