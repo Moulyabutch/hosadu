@@ -64,13 +64,12 @@ GitHub is a hosting service for Git repositories.GitHub is a cloud-based hosting
 4.Git is a version control system to manage source code history,	GitHub is a hosting service for Git repositories.
 
 Demonstrate Three ways of importing Remote repository locally using GitBaSH.
-A)
-1.using git clone command
+A)using git clone command
 {
 go to github and create a new repository ,click on the repository name on top left after opening click on code and copy the http link
 git init
 git clone "paste the link here"
-}
+}using pull 
 B)
 {
 git remote add origin "paste the link here"
@@ -79,7 +78,7 @@ or
 git init
 git pull url
 }
-c)
+c)using fetch
 {
 git init
 git remote add origin "paste the link here"
@@ -106,3 +105,5 @@ git merge sb
 git checkout master
 git merge fb
 }
+****ROLL_BACK****
+git checkout <hash_code> file.txt
